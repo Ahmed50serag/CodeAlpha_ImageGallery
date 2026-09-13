@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore a beautiful responsive image gallery featuring nature,cars,animals,and cities.">
+    <meta name="author" content="Ahmed Mahmoud Serag">
+      <meta property="og:title" content="Image Gallery" >
+    <title>Image Gallery</title>
+    <!-- link css -->
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <!-- start navbar -->
+    <nav class="navbar">
+    <!-- logo -->
+    <a class="Logo" href="#">Gallery</a>
+    <!-- button mobile -->
+     <button class="Icon_button">☰</button>
+     <!-- start navbar links -->
+      <ul class="nav-links">
+        <li>
+            <a href="#home">Home</a>
+        </li>
+        <li>
+            <a href="#Gallery_Content">Gallery</a>
+        </li>
+        <li>
+            <a href="#categories">Categories</a>
+        </li>
+        <li>
+            <a href="#about">About</a>
+        </li>
+      </ul>
+      <!-- Dark mode -->
+      <button class="Mode" id="Theme_Mode">🌙</button>
+</nav>
+<!-- End navbar -->
+</header>
+<main>
+<!-- start home content -->
+ <section class="hero-Section" id="home">
+     <h1>IMAGE GALLERY</h1>
+  <p>Explore beautiful moments</p>
+  <p class="hero-description">Discover beautiful moments captured through our lens and explore a world of visual stories. </p>
+  <a href="#Gallery_Content" class="hero-btn">Explore Gallery</a>
+ </section>
+<!-- end home content -->
+<!-- start categoires section -->
+ <section class="categoires-Section" id="categories">
+<div class="section-header"> 
+    <p class="section-subtitle">EXPLORE</p>
+    <h2>Browse Categories</h2>
+    <p> Discover our collection by category</p>
+</div>
+<!-- crete buttons in categories -->
+  <div class="buttons">
+  <button class="btn-active"data-category="all">All</button>
+  <button class="btn-primary"data-category="nature">Natures</button>
+  <button class="btn-success"data-category="animals">Animals</button>
+  <button class="btn-danger"data-category="cars">Cars</button>
+  <button class="btn-warning"data-category="cities">Cities</button>
+  </div>
+ </section>
+ <!--start Gallery Section -->
+ <section class="Gallery-Section" id="Gallery_Content">
+    <!-- Start content Section_header -->
+    <div class="section-header">
+    <p class="section-subtitle">OUR COLLECTION</p>
+    <h2> Featured Images</h2> 
+    </div>
+    <!-- Start content Section_header -->
+
+    <div class="Gallery">
+    <!-- start images Natures --> 
+    <article class="gallery-item" data-category="nature">
+    <img src="./Images/Natures/nature1.jpeg" alt="Beautiful mountain landscape surrounded by nature" loading="lazy">
+    <div class="image-overlay">
+    <span>Nature</span>
+    </div>
+    </article>
+   <!-- Nature 2 --> 
+    <article class="gallery-item" data-category="nature">
+         <img src="./Images/Natures/nature2.jpeg" alt="Beautiful green forest landscape" loading="lazy" > 
+         <div class="image-overlay"> 
+        <span>Nature</span>
+        </div>
+        </article> 
+    <!-- Nature 3 -->
+     <article class="gallery-item" data-category="nature">
+    <img src="./Images/Natures/nature3.jpeg" alt="Beautiful mountain landscape surrounded by nature" loading="lazy">
+    <div class="image-overlay">
+    <span>Nature</span>
+    </div>
+    </article> 
+    <!-- Nature 4 -->
+     <article class="gallery-item" data-category="nature">
+    <img src="./Images/Natures/nature4.jpeg" alt="Beautiful mountain landscape surrounded by nature" loading="lazy">
+    <div class="image-overlay">
+    <span>Nature</span>
+    </div>
+    </article>
+    <!-- Nature 5 --> 
+     <article class="gallery-item" data-category="nature">
+    <img src="./Images/Natures/nature5.jpeg" alt="Beautiful mountain landscape surrounded by nature" loading="lazy">
+    <div class="image-overlay">
+    <span>Nature</span>
+    </div>
+    </article>
+    <!-- Nature 6 -->
+     <article class="gallery-item" data-category="nature">
+    <img src="./Images/Natures/nature5.jpeg" alt="Beautiful mountain landscape surrounded by nature" loading="lazy">
+    <div class="image-overlay">
+    <span>Nature</span>
+    </div>
+    </article>
+
+    <!-- start Gallery Cars -->
+    <!-- Car 1 --> 
+    <article class="gallery-item"data-category="cars"> 
+    <img src="./Images/Cars/cars1.jpeg" alt="Modern luxury sports car" loading="lazy">
+    <div class="image-overlay">
+        <span>Cars</span>
+    </div>
+    </article>
+    <!-- Car 2 --> 
+    <article class="gallery-item" data-category="cars"> 
+    <img src="./Images/Cars/cars2.jpeg" alt="Modern luxury sports car" loading="lazy">
+    <div class="image-overlay">
+        <span>Cars</span>
+    </div>
+    </article>
+    <!-- Car 3 --> 
+    <article class="gallery-item"data-category="cars" > 
+    <img src="./Images/Cars/cars3.jpeg" alt="Modern luxury sports car" loading="lazy">
+    <div class="image-overlay">
+        <span>Cars</span>
+    </div>
+    </article>
+    <!-- Car 4--> 
+    <article class="gallery-item"data-category="cars"> 
+    <img src="./Images/Cars/cars4.jpeg" alt="Modern luxury sports car" loading="lazy">
+    <div class="image-overlay">
+        <span>Cars</span>
+    </div>
+    </article>
+    <!-- Car 5 --> 
+    <article class="gallery-item"data-category="cars"> 
+    <img src="./Images/Cars/cars5.jpeg" alt="Modern luxury sports car" loading="lazy">
+    <div class="image-overlay">
+        <span>Cars</span>
+    </div>
+    </article>
+    <!-- Car 6 --> 
+    <article class="gallery-item"data-category="cars"> 
+    <img src="./Images/Cars/cars6.jpeg" alt="Modern luxury sports car" loading="lazy">
+    <div class="image-overlay">
+      <span>Cars</span>
+    </div>
+    </article>
+
+    <!-- start Animals Gallery -->
+    <!-- Animal 1 --> 
+    <article class="gallery-item"data-category="animals">
+    <img src="./Images/Animals/animals1.jpeg" alt="Wild animal in its natural environment" loading="lazy" > 
+    <div class="image-overlay">
+        <span>Animals</span> 
+    </div> 
+    </article>
+    <!-- Animal 2 --> 
+    <article class="gallery-item"data-category="cars">
+    <img src="./Images/Animals/animals2.jpeg" alt="Wild animal in its natural environment" loading="lazy" > 
+    <div class="image-overlay">
+        <span>Animals</span> 
+    </div> 
+    </article>
+    <!-- Animal 3 --> 
+    <article class="gallery-item"data-category="animals">
+    <img src="./Images/Animals/animals3.jpeg" alt="Wild animal in its natural environment" loading="lazy" > 
+    <div class="image-overlay">
+        <span>Animals</span> 
+    </div> 
+    </article>
+    <!-- Animal 4 --> 
+    <article class="gallery-item"data-category="animals">
+    <img src="./Images/Animals/animals4.jpeg" alt="Wild animal in its natural environment" loading="lazy" > 
+    <div class="image-overlay">
+        <span>Animals</span> 
+    </div> 
+    </article>
+    <!-- Animal 5 --> 
+    <article class="gallery-item"data-category="animals">
+    <img src="./Images/Animals/animals5.jpeg" alt="Wild animal in its natural environment" loading="lazy" > 
+    <div class="image-overlay">
+        <span>Animals</span> 
+    </div> 
+    </article>
+    <!-- Animal 6 --> 
+    <article class="gallery-item"data-category="animals">
+    <img src="./Images/Animals/animals6.jpeg" alt="Wild animal in its natural environment" loading="lazy" > 
+    <div class="image-overlay">
+        <span>Animals</span> 
+    </div> 
+    </article>
+
+    <!-- start Cities Gallery -->
+    <!-- City 1 -->
+    <article class="gallery-item"data-category="cities"data-category="cities">
+        <img src="./Images/Cities/cities1.jpeg" alt="Modern city skyline" loading="lazy" > 
+        <div class="image-overlay">
+            <span>Cities</span>
+        </div>
+    </article> 
+     <!-- City 2 -->
+    <article class="gallery-item"data-category="cities">
+        <img src="./Images/Cities/cities2.jpeg" alt="Modern city skyline" loading="lazy" > 
+        <div class="image-overlay">
+            <span>Cities</span>
+        </div>
+    </article> 
+     <!-- City 3 -->
+    <article class="gallery-item"data-category="cities">
+        <img src="./Images/Cities/cities3.jpeg" alt="Modern city skyline" loading="lazy" > 
+        <div class="image-overlay">
+            <span>Cities</span>
+        </div>
+    </article> 
+     <!-- City 4 -->
+    <article class="gallery-item"ata-category="cities">
+        <img src="./Images/Cities/cities4.jpeg" alt="Modern city skyline" loading="lazy" > 
+        <div class="image-overlay">
+            <span>Cities</span>
+        </div>
+    </article> 
+     <!-- City 5 -->
+    <article class="gallery-item"ata-category="cities">
+        <img src="./Images/Cities/cities5.jpeg" alt="Modern city skyline" loading="lazy" > 
+        <div class="image-overlay">
+            <span>Cities</span>
+        </div>
+    </article> 
+     <!-- City 6-->
+    <article class="gallery-item"ata-category="cities">
+        <img src="./Images/Cities/cities6.jpeg" alt="Modern city skyline" loading="lazy" > 
+        <div class="image-overlay">
+            <span>Cities</span>
+        </div>
+    </article>        
+ </section>
+ <!--End  Gallery Section -->
+ <!-- Start lightbox -->
+   <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image Preview">
+     <!-- Close --> 
+      <button class="close-btn" id="closeBtn" aria-label="Close image preview">&times; </button>
+       <!-- Previous --> 
+        <button class="prev-btn" id="prevBtn" aria-label="Previous image" >&#10094; </button>
+         <!-- Image --> 
+          <img class="lightbox-img" id="lightboxImg" src="" alt="" > 
+          <!-- Next -->
+            <button class="next-btn" id="nextBtn" aria-label="Next image" > &#10095;</button> 
+        </div> 
+
+ <!-- Start About Section -->
+  <section class="about-section" id="about" > 
+    <div class="about-content">
+         <p class="section-subtitle">ABOUT LUMINA</p> 
+         <h2>Stories Through Images</h2> 
+         <p> LUMINA is a modern image gallery created to showcase beautiful moments from different parts of the world.</p> <p> Explore nature, discover amazing cars, meet fascinating animals, and experience beautiful cities through our collection.</p> 
+        </div>
+    </section>
+<!-- End About Section -->
+ </main>
+ <!-- Start Footer  -->
+  <footer class="footer">
+    <div class="footer-content">
+    <div class="footer-brand">
+        <h2> LUMINA </h2>
+        <p>Capture the moment. Tell the story.</p> 
+    </div>
+    <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#Gallery_Content">Gallery</a>
+        <a href="#categories">Categories</a> 
+        <a href="#about"> About </a>
+       </div>
+       </div> 
+       <div class="footer-bottom"> 
+        <p> © 2026 LUMINA. All Rights Reserved.</p>
+        <p> Designed & Developed by Ahmed Mahmoud</p>
+        </div>
+  </footer>
+        <!-- JavaScript --> 
+         <script src="script.js"></script>
+</body>
+</html>
